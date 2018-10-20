@@ -1,0 +1,30 @@
+{
+  "name": "web_client",
+  "version": "0.1.0",
+  "description": "Node.js server to handle train requests and transmit them to the DCC command station",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/laurenttainturier/DCC_Command_Station.git"
+  },
+  "author": "Laurent Tainturier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurenttainturier/DCC_Command_Station/issues"
+  },
+  "homepage": "https://github.com/laurenttainturier/DCC_Command_Station#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.4",
+    "serialport": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
